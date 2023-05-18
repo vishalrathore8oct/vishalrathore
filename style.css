@@ -1,11 +1,114 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #191D2B;
-    color: #fff;
+  font-family: "Poppins", sans-serif;
+  background-color: #191d2b;
+  color: #fff;
 }
+
+/* ---------------------styling the header-------------------------------- */
+
+header {
+  height: 7vh;
+  width: 100%;
+  background-color: #27ae60;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 14.5rem 0 10rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.head-title {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.head-title h3 {
+    font-size: 2.6rem;
+}
+
+.head-title img {
+    width: 4rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+nav ul li {
+    font-size: 1.7rem;
+}
+
+/* ---------------------styling the home page-------------------------------- */
+
+.home-section {
+    height: 93vh;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-left-side, .home-right-side {
+    width: 45%;
+}
+
+.home-left-side h1 {
+    font-size: 5rem;
+}
+
+.home-left-side h1 span {
+    color: #27ae60;
+}
+
+.home-left-side a button {
+    background-color: #191d2b;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 28rem;
+    height: 5rem;
+    border: 2px solid #27ae60;
+    border-radius: 3rem;
+}
+
+.home-left-side a i {
+   border-radius: 50%;
+   color: #27ae60;
+   
+}
+
+.home-left-side p {
+    font-size: 2rem;
+    margin: 1rem 0 3rem 0
+}
+
+.home-right-side img {
+    border-radius: 1.5rem;
+}
+
+/* ---------------------styling the Contact page------------------------------ */
+
